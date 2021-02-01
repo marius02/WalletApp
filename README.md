@@ -1,1 +1,1 @@
-# WalletApp
+# Wallet Application for Android using Xamarin and Adobe XD for the design
