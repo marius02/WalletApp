@@ -1,0 +1,9 @@
+configuration: Release
+# restore NuGet packages before running MSBuild
+before_build:
+ - nuget restore
+# package Xamarin Application project
+build:
+ verbosity: minimal
+ project: WalletApp.sln
+ publish_wap: true
